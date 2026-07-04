@@ -80,7 +80,6 @@ def get_current_weather(city: str, *, api_key: str) -> dict[str, Any]:
     params = {
         "q": city.strip(),
         "appid": api_key,
-        "units": "metric",
     }
 
     try:

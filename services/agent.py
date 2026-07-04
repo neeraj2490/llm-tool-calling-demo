@@ -74,7 +74,7 @@ class WeatherAgent:
                 messages=messages,
                 tools=self._tools,
                 tool_choice="auto",
-                temperature=0.2,
+                temperature=1.0,
             )
 
             assistant_message = response.choices[0].message
